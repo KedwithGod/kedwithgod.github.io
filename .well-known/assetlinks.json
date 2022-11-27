@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.example.circle",
+            "sha256_cert_fingerprints": [
+                "A0:42:55:8E:AA:8B:58:FB:48:10:7F:DA:63:DD:2E:7C:C7:62:B1:7D:D8:07:4F:35:96:52:29:DA:BD:A8:B9:B9"
+            ]
+        }
+    }
+]
