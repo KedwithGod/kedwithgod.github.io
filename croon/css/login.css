@@ -1,0 +1,96 @@
+html, body {margin: 0; 
+    padding: 0;
+    height: 100%; 
+    overflow: hidden;
+    background-color:var(--page-background);
+    
+}
+
+.left_section{
+width: 100%;
+height: 100%;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+/* left section of the grid */
+
+
+
+.login_form{
+    position:absolute;
+    top: 10vw;
+    height: 47vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+}
+
+.welcome_text{
+  color: black;
+  font-size: 2.125vw;
+  font-weight: 600;
+  margin-bottom: -0.55vw;
+}
+.welcome_subtitle{
+    font-family: 'Lato';
+    font-size: 1.125vw;
+    color:rgb(150, 150, 150);
+    margin-bottom: 1vw;
+}
+
+.check_box_row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.remember_me_checkbox {
+     accent-color: white; 
+     margin-right: 0.425vw;
+}
+
+
+
+.forgot_password{
+    margin-left: 5.1vw;
+    color: var(--primary-color);
+}
+
+/* login button */
+
+.login_button{
+    margin-top: 0.85vw; 
+    
+}
+.google_sign_in{
+    margin-top: 1.2vw; 
+    background-color: white;
+}
+
+.google-icon{
+   position: relative;
+   top: 0.50vw;
+   margin-right: 0.5vw;
+}
+.google-icon{
+    width: 1.7vw;
+    height: 1.7vw;
+}
+
+.sign_up_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5vw;
+}
+.sign_up{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+

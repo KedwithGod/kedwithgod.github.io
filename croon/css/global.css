@@ -1,0 +1,1499 @@
+:root{
+    --button-color:white;
+    --page-background:rgba(250,250,250,1);
+    --primary-color:#3DB3AD;
+    --container-color:white;
+    --left-position:5.1vw;
+    --white-color:white;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: 
+    var(--page-background);
+    padding: 0;  
+  margin: 0;
+ 
+}
+
+.regular_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0vw;
+    align-content: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8); 
+}
+
+.general_text_field{
+    width:20.5vw ;
+    padding-left: 1.19vw;
+    padding-right: 1.19vw;
+    height: 3.25vw;
+    border-radius: 0.85vw;
+    border: 0px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    color: #272444; 
+    box-shadow: 3.06vw 2.38vw 17vw rgba(0, 0, 0, 0.25);
+}
+
+.general_text_field:focus-within{
+    outline:none;
+  
+}
+
+.general_button{
+    z-index: 1;
+    width:22.88vw ;
+    height: 3.25vw;
+    border-radius: 0.85vw;
+    border:0px;
+    background-color: var(--primary-color);
+    color:var(--button-color);
+    font-size: 1.105vw;
+    font-weight: 600;
+    line-height: 2.55vw;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+
+.heading_background{
+    position: absolute;
+    width: 98vw ;
+    height: 56vw;
+    top:4.505vw;
+    left: 5.695vw;
+  max-width: 100%;
+}
+
+
+/* rotated rectange */
+.rotated_rectangle{
+    position: absolute;
+    width: 60vw;
+    top: 0;
+    right: 0;    
+    }
+    
+/* marvel actor image */
+.marvel_actor{
+position: absolute;
+width: 41vw;
+height: 49vw;
+right: 5vw;
+top: 8.8vw;
+
+}
+
+.get_int_touch{
+position: absolute;
+width: 40vw;
+height: 2.72vw;
+left: 4.675vw;
+top: 15vw;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 1.275vw;
+line-height: 140%;
+/* identical to box height, or 31px */
+text-transform: uppercase;
+color: var(--primary-color);
+
+}
+
+/* book_celebrity p tags */
+.book_celebrity_text > p{
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    width: 49vw;
+    font-size: 5.1vw;
+    height: 10vw;
+    position: absolute;
+    left: 4.675vw;
+    top: 14vw;
+    line-height: 102%;
+    
+}
+
+/* book_celebrity occassions text */
+.book_celebrity_text > p:nth-child(2){
+    position: absolute;
+    top: 24vw;
+}
+
+/* book celebrity subtitle */
+.book_celebrity_subtitle{
+    position: absolute;
+    width: 30vw;
+    height: 11.22vw;
+    left: 4.675vw;
+    top: 34vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.105vw;
+    line-height: 150%;
+
+    text-transform: uppercase;
+    color: rgba(39, 36, 68, 0.52);
+}
+
+/* book celebrity button section:search container*/
+.search_container{
+    position: absolute;
+    width: 43vw;
+    height: 6vw;
+    left: 4.675vw;
+    top: 42.5vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0.85vw 1.2vw rgba(39, 36, 68, 0.05);
+    border-radius: 1.2vw;
+}
+
+/* search container table */
+.search_container_table{
+    border-spacing: 2.55vw 0px;    
+}
+
+/* search container title */
+.search_container_title{
+    border: 0;
+    position: relative;
+    top: 1.7vw;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 1.105vw;
+    line-height: 150%;
+
+    text-transform: uppercase;
+    color: #272444;
+}
+
+/* search container subtitle */
+.search_container_subtitle{
+    border: 0;
+    position: relative;
+    top: 1.7vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: rgba(39, 36, 68, 0.32);
+   
+}
+
+/* align text in search container table */
+.search_container_table th,
+td {
+  text-align: start;
+}
+
+/* search icon in searh container */
+.search_icon_container{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    right:1.7vw ;
+    top: 1.0625vw;
+    background: var(--primary-color);
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+/* -------section 2-------- */
+
+/* celebrity section */
+.celebrity_container {
+    position: absolute;
+    top:62vw;
+    left: 2.55vw;
+    width: 94.6%;
+    height:39.1vw;
+    background-color: var(--container-color);
+}
+
+
+/* top celebrity */
+.top_celebrity{
+    position: absolute;
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.275vw;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    top: 0.85vw;
+
+}
+
+.explore_celebrity{
+    position: absolute;
+    width: 100%;  
+    top: 2.55vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.55vw;
+
+    /* or 86px */
+    text-align: center;
+    color: #272444;
+}
+
+/* see more */
+.see_more{
+    position: absolute;
+    top:8.5vw;
+    right: 2.55vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.02vw;
+text-transform: uppercase;
+
+color: var(--primary-color);
+   
+}
+
+/* swipe */
+.swipe{
+    position: absolute;
+    top:9.225vw;
+    right: 5.1vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.02vw;
+    text-align: center;
+    color: var(--primary-color);
+   
+}
+
+/* see all button */
+.see_all, .browse_star{
+    position: absolute;
+    top:8.925vw;
+    right: 12.75vw;
+    width: 8.5vw;
+    height: 3.4vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.85vw;
+    text-align: center;
+    align-content: center;
+    color: var(--primary-color);
+    background-color: var(--button-color);
+    border: 0px;
+    background: #FFFFFF;
+    box-shadow: 3.06vw 2.38vw 17vw -0.595vw rgba(64, 64, 64, 0.2);
+    border-radius: 0.85vw;
+}
+
+/* top elipses */
+.elipses{
+    position: absolute;
+    left:0px;
+    top:8.075vw;
+    width: 10.625vw;
+    height: 9.01vw;
+}
+
+/* bottom elipse */
+.elipses_bottom{
+    position: absolute;
+    right:0vw;
+    bottom:0vw;
+    width: 10.625vw;
+    height: 9.01vw;
+}
+
+/* upper div for celeb container */
+.celeb {
+    position: absolute;
+    top: 11.9vw;
+    left: 4.505vw;
+    background-color: transparent;
+}
+
+/* celeb image */
+.celeb img{
+    position: absolute;
+    top: 0px;
+    width: 16.8vw;
+    height:16vw;
+    border-top-left-radius: 1.87vw;
+    border-top-right-radius:1.87vw;
+}
+
+/* celeb low container */
+.lower_container{
+    position: absolute;
+    top: 16vw;
+    left: 0px;
+    width: 16.8vw;
+    height:6.0vw;
+    background-color: var(--container-color);
+    border-bottom-left-radius: 1.87vw;
+    border-bottom-right-radius:1.87vw;
+    box-shadow: 0px 0.85vw 2.55vw rgba(39, 36, 68, 0.05);
+    
+}
+
+/* celeb name */
+.celeb_name{
+    position: absolute;
+    left: 1.105vw;
+    top: -0.85vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.7vw;
+    line-height: 120%;
+    /* identical to box height, or 60px */
+    letter-spacing: 0.11em;
+    color: #272444;
+
+}
+
+/* celeb occupation */
+.celeb_occupation{
+    position: absolute;
+    left: 1.105vw;
+    top: 1.785vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.19vw;
+    line-height: 120%;
+    /* identical to box height, or 42px */
+    letter-spacing: 0.03em;
+    color: rgba(39, 36, 68, 0.9);
+
+}
+
+/* celeb stars */
+/* checked star */
+.checked {
+    color: rgba(255, 177, 133, 1);
+}
+/* unchecked star */
+.unchecked{
+    color:rgba(239, 239, 239, 1);
+}
+/* celeb star rating*/
+.lower_container i  {
+    position: absolute;
+    top: 4.675vw;
+    font-size: 0.85vw;
+}
+
+/* celeb charge */
+.celeb_charge{
+    position: absolute;
+    bottom:0px;
+    right: 1.7vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.275vw;
+    letter-spacing: 0.03em;
+    color: #272444;
+
+}
+
+
+/* setting position for burna boy container */
+#burna_boy, #patoranking, #RMD, #basket_mouth{
+    position: absolute;
+    top: 11.9vw;
+    left: 22vw;
+
+}
+
+/* setting position for olamide container */
+#olamide, #osita, #kate,#lasisi{
+    position: absolute;
+    top: 11.9vw;
+    left: 39.495vw;
+}
+
+
+/* setting position for asa container */
+#asa, #jim_lyke,#ay{
+    position: absolute;
+    top:11.9vw;
+    left: 57vw;
+    /* left: 55.5vw; */
+    
+}
+
+#wizkid {
+    position: absolute;
+    top: 11.9vw;
+    left: 74.525vw;
+    /* left: 55.5vw; */
+    
+}
+
+#wizkid_2{
+    position: absolute;
+    top: 11.9vw;
+    left: 92vw;
+    /* left: 55.5vw; */
+    
+}
+
+/*-------section 2--------*/
+
+/* celebrity section */
+.featured_celebrities {
+    position: absolute;
+    top:102vw;
+    left: 2.55vw;
+    width: 94.6%;
+    height:39.1vw;
+}
+
+/*---------section 3--------*/
+/* actors */
+.actors {
+    position: absolute;
+    top:135vw;
+    left: 1.19vw;
+    width: 100%;
+    height:41.65vw;
+    background-color: transparent;
+}
+
+/* remove scroll bar */
+body::-webkit-scrollbar{
+    width: 0px ;
+}
+
+
+
+/* actor text */
+.actor_text{
+    position: absolute;
+    left:var( --left-position);
+    width: 100%;  
+    top: 6.8vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.55vw;
+    text-align: start;
+    color: #272444;
+}
+
+/* flex box for scrolling view */
+.flex_box{
+    position: absolute;
+    top:1.7vw;
+    left: 1.19vw;
+    width: 97%;
+    display: flex;
+    overflow-x: scroll; 
+    white-space: nowrap;
+    height: 39.95vw;
+}
+/* remove flex box scroll bar */
+.flex_box::-webkit-scrollbar,.kid_image_container::-webkit-scrollbar,
+ .service_offered_container::-webkit-scrollbar,.testimonial_item::-webkit-scrollbar,
+ .video_list::-webkit-scrollbar, .feedback_item_list::-webkit-scrollbar
+ {
+    width: 0px ;
+}
+
+/* section 4 for comedians */
+#comedian{
+    position: absolute;
+    top:167.5vw;
+    left: 1.19vw;
+    width: 100%;
+    height:41.65vw;
+    background-color: transparent;
+}
+
+/*  ---------------who we are section-------------- */
+/* who we are */
+.who_we_are_container{
+    position: absolute;
+    top:205vw;
+    left: 5.1vw;  
+    width: 94.6%;
+}
+
+.who_we_are_text{
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.55vw;
+    width: 16.15vw;
+    color: #272444;
+}
+
+.underline_title{
+    position: absolute;
+   background-color:  var(--primary-color);
+   height: 0.255vw;
+    width: 8.5vw;
+    top: 6.8vw;
+    
+  
+}
+._who_we_are_long_text, .second_line, .third_line{
+    position: absolute; 
+    width: 34vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6575vw;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.65);
+    }
+
+  ._who_we_are_long_text{
+    top: 8.5vw;
+  }  
+
+  .second_line{
+    top: 15.3vw;
+  }
+
+  .third_line{
+    top: 27.2vw;
+  }
+
+  /* who we are image */
+  .who_we_are_image{
+    position: absolute; 
+    top: 2.55vw;
+    right: 4.505vw;
+    width: 40vw;
+    height: 50vw; 
+  }
+  .browse_star{
+    position: absolute;
+    left: 0px;
+    top: 42.5vw;
+    box-shadow: 3.06vw 2.38vw 17vw -0.595vw rgba(64, 64, 64, 0.2);
+  }
+
+  /* section 10: how we work */
+  .section_title{
+    position: absolute;
+    top:260vw;
+    left:var( --left-position);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.275vw;
+    line-height: 140%;
+
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+  }
+  .page_title{
+    position: absolute;
+    top:261vw;
+    left:var( --left-position);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.55vw;
+    line-height: 120%;
+
+    color: #272444;
+  }
+
+  .mechanism_container{
+    position: absolute;
+    top:268vw;
+    left:0px;
+    width: 94.6%;
+    display: flex;
+    margin-left: 3.4vw;
+  }
+
+  .find_star_container{
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    height: 10.2vw;
+  }
+
+  /* icon image  */
+  .image_container{
+    position: absolute;
+    width: 6.8vw;
+    height: 6.8vw;
+    display: flex;
+    align-items: center; /* for column */
+    justify-content: center; /* for row */
+    background: #FFFFFF;
+    box-shadow: 0px 0.85vw 2.55vw rgba(39, 36, 68, 0.05);
+    border-radius: 1.7vw;
+
+  }
+ .image{
+    width: 2.55vw;
+    height: 2.55vw; 
+ }
+ .mechanism_container .title{
+    position: relative;
+    left: 8.5vw;
+    top: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.275vw;
+    color: #272444;
+
+ }
+
+ .mechanism_container .subtitle{
+    position: absolute;
+    left: 8.5vw;
+    top: 2.55vw;
+    width: 70%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85vw;   
+    color: rgba(0, 0, 0, 0.37);
+
+ }
+
+ #recieve_message{
+    position: absolute;
+    left: 8.5vw;
+    top: 3.85vw; 
+ }
+
+ #book_star_container{
+    left:23.565vw;
+ }
+
+ #recieve_message_container{
+    left: 47.83vw;
+ }
+ #gift_it_container{
+    left:73.325vw
+ }
+
+ /* section 11 kid image section */
+
+ 
+ .kid_image_container{
+    position: absolute;
+    top:283vw;
+    left:0px;
+    display: flex;
+    overflow-x: auto; 
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 119vw;
+    height: 25.5vw;  
+ 
+ }
+
+ /* this is the curve that is used to clip the pictures edge */
+ .upper_curve{
+    position: absolute;
+    top: 279vw;
+    width: 100%;
+    height: 8.5vw;  
+    border: solid 0px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%;
+    background-color: rgba(255, 250, 243, 1);
+ }
+
+ .bottom_curve{
+    position: absolute;
+    top: 302vw;
+    width: 100%;
+    height: 8.5vw;  
+    border: solid 0px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 40%;
+    background-color: rgba(255, 250, 243, 1);
+ }
+
+ .kid_image_container img{
+    width: 42.5vw;
+    height:29.75vw;
+    margin-right: 0.85vw;
+    object-fit: cover;
+    margin-bottom: 0.85vw;
+    
+  
+ }
+
+ .kid_image_container .kid_image_3{
+    margin-right: 0px;
+ }
+
+
+
+
+ /* section 11: how we work (2) */
+ .section_title_second{
+    position: absolute;
+    top:308vw;
+    left:var( --left-position);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.275vw;
+    line-height: 140%;
+    /* identical to box height, or 49px */
+
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+  }
+  .page_title_second{
+    position: absolute;
+    top:309vw;
+    left:var( --left-position);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.55vw;
+    line-height: 120%;
+    color: #272444;
+  }
+
+  .service_offered_container{
+    position: absolute;
+    top:318vw;
+    left:var( --left-position);
+    width: 94.6%;
+    height: 40vw;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   
+  }
+
+  .service_container{
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    height: 10.2vw;
+  }
+
+  /* service images */
+  .service_image{
+    position: absolute;
+    width: 20.4vw;
+    height: 23.8vw;
+    object-fit: cover;
+    box-shadow: 0px 0.85vw 2.55vw rgba(39, 36, 68, 0.05);
+    border-radius: 1.7vw;
+  }
+
+  .service_button{
+        position: absolute;
+        top: 1.275vw;
+        left: 1.275vw;
+        width: 8.5vw;
+        z-index: 1;
+        height: 2.975vw;
+        border-radius: 0.85vw;
+        border:0px;
+        background-color: var(--primary-color);
+        color:var(--button-color);
+        font-size: 1.105vw;
+        font-weight: 600;
+        line-height: 2.55vw;
+        font-family: 'Poppins';
+        font-style: normal;
+        text-transform: uppercase; 
+  }
+ #birthday{
+    position: absolute;
+    left: 22.1vw;
+ }
+
+ #wedding{
+    position: absolute;
+    left: 44.2vw;
+ }
+
+ #yatch_party{
+    position: absolute;
+    left: 66.3vw;
+ }
+
+ #beach_party{
+    position: absolute;
+    left: 88.4vw;
+ }
+
+ /* 11 ----ongoing project section------ */
+.ongoing_project_container_background{
+    position: absolute;
+    top:345vw;
+    left:0px;
+    width:100%;
+    object-fit: cover;
+    opacity: 0.1;
+    height: 60vw;
+    background-color: rgba(61, 179, 173, 0.08);
+}
+
+.ongoing_project_container{
+    position: absolute;
+    top:345vw;
+    left:0px;
+    width:100%;
+    height: 60vw;
+    background-color: rgba(61, 179, 173, 0.08);
+}
+
+.ongoing_title{
+    
+    position: absolute;
+    top: 1.7vw;
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.125vw;
+   
+    /* identical to box height, or 84px */
+
+    text-align: center;
+     color: #272444;
+    }
+
+  .underline_wrapper{
+    position:absolute;
+    top: 0px;
+    display: flex;
+    height: 0.255vw;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }  
+  .ongoing_title_underline{
+    position:absolute;
+    top: 7.65vw;
+    display: flex;
+    height: 0.255vw;
+    width: 8.5vw;
+    background-color: rgba(61, 179, 173, 1);
+  }  
+
+
+.ongoing_image{
+    position:absolute;
+    top: 12.75vw;
+    left: 5.1vw;
+    width:34vw;
+    height: 37.4vw;
+    border-bottom-right-radius: 4.25vw;
+    object-fit: cover;
+}
+
+/* stepper line */
+.stepper_container{
+    position: absolute;
+    top:12.75vw;
+    left:59.075vw;
+    width: 0.935vw;
+    height: 35.7vw;  
+    display: flex;
+    justify-content: center;
+}
+
+.stepper_line{
+    position: absolute;
+    width: 0.085vw;
+    height: 35.7vw;
+    background-color:  rgba(0, 0, 0, 0.5);
+      
+}
+
+.stepper_circle{
+    position:absolute;
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 1.02vw;
+    height: 1.02vw;
+    box-sizing: border-box;
+    background: var(--primary-color);
+    border: 0.255vw solid #272444;
+}
+
+#stepper_circle_2{
+    top:11.9vw;
+}
+#stepper_circle_3{
+    top:23.8vw;
+}
+
+ /* list of ongoing projects */
+.ongoing_project_list_large_container{
+    position: absolute;
+    top:13.26vw;
+    left:61.455vw;
+    height: 35.19vw;  
+   
+   
+}
+.ongoing_project_list_item_container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 35.19vw; 
+   
+}
+.ongoing_icon{
+    position:absolute;
+    display: inline;
+    left:0px;
+    top:0px;
+    width: 1.19vw;
+    height: 1.19vw;
+}
+.ongoing_text{
+    position:absolute;
+    font-family: 'Poppins';
+    left:1.955vw;
+    top:-1.615vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.275vw;
+    /* identical to box height, or 28px */
+    text-transform: capitalize;
+    color: var(--primary-color);
+   
+}
+
+.ongoing_list_item_title{
+    position: absolute;
+    left:1.955vw;
+    top:2.04vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    color: #272444;
+    width: 34vw;
+}
+
+.ongoing_list_item_subtitle{
+    position: absolute;
+    left:1.955vw;
+    top:4.59vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85vw;
+    line-height: 140%;
+    /* or 25px */
+    width: 21.25vw;
+    text-transform: capitalize;
+    color: rgba(39, 36, 68, 0.5);
+    }
+
+ #second_item{
+    position: absolute;
+    top: 12.75vw;
+ }  
+ 
+ #third_item{
+    position: absolute;
+    top: 24.65vw;
+ }  
+ .see_more_ongoing_project{
+    position: absolute;
+    left: 0.85vw;
+    top: 41.225vw;
+    width: 12.75vw;
+    height: 3.4vw;
+    border: 0px;
+    background: #FFFFFF;
+    box-shadow: 3.06vw 2.38vw 17vw -0.595vw rgba(64, 64, 64, 0.2);
+    border-radius: 0.595vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.275vw;
+    text-align: center;
+    color: var(--primary-color);
+ }
+
+ /* section 13- download app */
+ .download_app_container{
+    position: absolute;
+    top:410vw;
+    left:var( --left-position);
+    width:100%;
+   
+ }
+ .download_app_title{
+    position: absolute;
+    top: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.55vw;
+    color: #272444;
+   
+ }
+
+ .download_app_subtitle{
+    position: absolute;
+    top: 9.35vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.19vw;
+    width: 32.3vw;
+    height: 8.5vw;
+   
+ }
+
+ .download_app_title_underline{
+        position: absolute;
+        height:0.255vw;
+        background-color: var(--primary-color);
+        width: 12.75vw;
+        top: 6.8vw;
+ }
+ .google_store{
+    position: absolute;
+    width: 12.75vw;
+    height: 4.25vw;
+    top: 20.825vw;
+ }
+ .apple_store{
+    position: absolute;
+    width: 12.75vw;
+    left: 13.6vw;
+    height: 4.25vw;
+    top: 20.825vw;
+ }
+
+ .download_img{
+    position: absolute;
+    left: 59.5vw;
+    top: 0.425vw;
+    width: 25.5vw;
+    height: 29.75vw;
+ }
+
+ /* testimonial title */
+ .testimonial_container{
+    position: absolute;
+    top:440vw;
+    left:var( --left-position);
+    width:94.6%;
+ }
+
+ .testimonial_title{
+    position:absolute;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.53vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+ }
+ .testimonial_subtitle{
+    position:absolute;
+    top: 1.7vw;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.55vw;
+    width: 100%;
+    text-align: center;
+    color: #272444;
+ }
+ .testimonial_item{
+    position:absolute;
+    top: 10.2vw; 
+    width: 100%;
+    left: 0px;
+    height:28.5vw;
+    overflow-x: scroll;
+ }
+ .testimony_item_container{
+    position:absolute;
+    top:1.53vw; 
+    width: 23.375vw;
+    height: 22.1vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0.85vw 0.85vw rgba(39, 36, 68, 0.1);
+    border-radius: 1.275vw;
+   
+ }
+ .quotation_image{
+    position:absolute;
+    top:-1.53vw; 
+    width: 3.06vw;
+    height: 3.06vw;
+    right:1.275vw;
+ }
+ .testifier_image{
+    position:absolute;
+    top:2.975vw; 
+    left: 1.7vw;
+    width: 4.25vw;
+    height: 4.25vw;
+    border-radius: 2.125vw;
+ }
+
+ .testifier_location{
+    position:absolute;
+    top:4.08vw; 
+    left: 6.8vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    color: rgba(39, 36, 68, 0.59);
+ }
+
+ .testifier_name{
+    position:absolute;
+    top:1.7vw; 
+    left: 6.8vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.445vw;
+    line-height: 120%;
+    color: #272444;
+ }
+.testimony{
+    position:absolute;
+    top:7.905vw; 
+    left: 3.825vw;
+    width: 15.3vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85vw;
+    color: rgba(39, 36, 68, 0.73);
+}
+.testimony_item_container i{
+    position:absolute;
+    bottom: 1.7vw;
+    left: 3.825vw;
+    font-size: 1.105vw;
+}
+#second_testifier{
+    position:absolute;
+    top: 0.5;
+    left:25.075vw ; 
+}
+#third_testifier{
+    position:absolute;
+    left:50.15vw ; 
+}
+
+#fourth_testifier{
+    position:absolute;
+    left:75.225vw; 
+}
+
+/* newsletter section */
+.newsletter_container{
+    position: absolute;
+    top:477vw;
+    left:var( --left-position);
+    right:5.1vw;
+    width:89.8vw;
+    height:27.1vw;
+    display: flex;
+    border-radius: 1.7vw;
+    justify-items:center ;
+    background-color: var(--primary-color);;
+    
+
+}
+
+.subsribeText{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.55vw;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.inpur_container{
+    position: absolute;
+    top: 15.3vw;  
+    left: 0px;
+    width:100%;  
+    display: flex;
+    justify-content:center ;
+    
+}
+
+.input_plus_button{
+    width: 34vw;
+    padding-left: 1.19vw;
+    padding-right: 0.59vw;
+    border:0px;
+    height: 4.25vw;
+    border-radius: 0.85vw;
+    box-sizing: border-box;
+    background-color: var(--button-color);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap:1.19vw;
+  
+}
+
+.enter_email{
+    width:25.5vw ;
+    border: 0px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    
+
+color: #272444;
+}
+.enter_email:focus-within{
+    outline: none;
+  
+}
+.submit_button{
+    margin: 0px;
+}
+
+.subscribe_button{
+    width: 12.75vw;
+    height: 3.4vw;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.19vw;
+    color: #EFEDFE;
+    background: var(--primary-color);
+
+    border-radius: 0.85vw;
+    border: 0px;
+    text-align: center;
+}
+
+/* section 16 company info and details */
+.company_details_container{
+    position: absolute;
+    width:102vw;  
+    height: 25.5vw;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr;
+    column-gap: 1.7vw;
+    top:510vw;
+    left:var( --left-position);
+}
+
+/* compNY information */
+.company_information{
+    grid-column: 1/2;
+    position:static;
+
+}
+.croon_logo_black{
+    position: absolute;
+    width: 10.2vw;
+    height: 2.975vw;
+    left: -1.7vw;
+}
+.company_info{
+    position: absolute;
+    width: 19.55vw;
+    height: 2.975vw;
+    top: 2.55vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.19vw;
+   color: rgba(39, 36, 68, 0.73);
+}
+
+.social_icon_container{
+    position: absolute;
+    top: 8.5vw;  
+    display: flex;
+   
+}
+.social_icon{
+    width: 3.4vw;
+    height: 3.4vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0.85vw 2.55vw rgba(39, 36, 68, 0.09);   
+    border-radius: 1.7vw;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.7vw;
+}
+
+.social_image{
+    width: 1.7vw;
+    height: 1.7vw;
+}
+
+/* company personnel */
+.company{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+
+}
+.company_text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 1.19vw;
+color: rgba(39, 36, 68, 0.73);
+}
+
+/* footer section */
+.footer_divider{
+    position: absolute;
+    top: 531vw;
+    background-color:  rgba(39, 36, 68, 0.71);
+    width: 100%;
+    height: 0.085vw;
+}
+.footer_text{
+position: absolute;
+top: 534vw;   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+height: 5.072vw;
+width: 100%;
+font-size: 1.19vw;
+/* identical to box height, or 64px */
+text-align: center;
+text-transform: capitalize;
+color: #272444;
+}
+
+/*this is for the backgroud used as watermark in some pages: the marvel actor  */
+
+.background{
+    position: fixed;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+
+}
+/* height: 15119px;
+width: 2412px;
+left: -1023px;
+top: -602px;
+border-radius: 0px; */
+/* fontsize-0.085*px size */
+
+/* for custom drop down button */
+  /*the container must be positioned relative:*/
+  .custom-select {
+    position: relative;
+    width:20.5vw ;
+    padding-left: 1.19vw;
+    padding-right: 1.19vw;
+    height: 3.25vw;
+    border-radius: 0.85vw;
+    border: 0px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    color: #272444; 
+    box-shadow: 3.06vw 2.38vw 17vw rgba(0, 0, 0, 0.25);
+
+  }
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  .select-selected {
+    background-color: white;
+  }
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 2.55vw;
+    right: 0.85vw;
+    width: 0;
+    height: 0;
+    border: 0.51vw solid transparent;
+    border-color:black transparent transparent transparent;
+  }
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent black#fff transparent;
+    top: 2.55vw;
+    scroll-behavior: initial;
+  }
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: black;
+    padding: 0.68vw 1.36vw;
+    border: 0.085vw solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  

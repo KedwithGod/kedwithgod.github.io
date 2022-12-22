@@ -1,0 +1,356 @@
+.container_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 4vw;
+}
+
+/* right container */
+.right_section{
+    --left_space: 4vw;
+    position: relative;
+    top: 10vw;
+    left: var(--left-position);
+    height: 95vw;
+    width: 60vw;
+    border-radius: 0.86vw;
+    overflow: hidden;
+}
+
+.half_profile_image{
+    position: relative;
+    top: -10vw;
+    width:60vw;
+    height: 30vw;
+    object-fit:fill;
+    border-radius: 1.7vw; 
+}
+
+/* lower container of the profile */
+.lower_container{
+    position: absolute;
+    top: 18vw;
+    width:60vw;
+    height: 90vw;
+}
+
+.avatar_profile_image{
+    position: relative;
+    left: var(--left_space);
+    top: -5.5vw; 
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    border: 0.17vw solid var(--white-color);
+}
+.artist_name{
+    position: absolute;
+    text-align: left;
+    top: -1vw;
+    left: 18vw;
+    font-size: 2.0vw;
+}
+.artist_occupation{
+    position: absolute;
+    text-align: left;
+    top: 3vw;
+    left: 18vw;
+    font-size: 1.0vw;
+}
+
+.share_text{
+    position: absolute;
+    top: 1vw;
+    right: 8vw;
+    
+}
+
+.social_share{
+    position: absolute;
+    top: 2.1vw;
+    right: 2vw; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+   
+    
+}
+
+.social_image{
+    width: 1vw;
+    height: 1vw;
+    margin-left:0.85vw; 
+}
+
+.social_image:hover{
+    box-shadow: 0.085vw 0.85vw 0.85vw rgba(39, 36, 68, 0.3);
+    transform: scale(1.2);
+}
+
+
+
+.my_giving_back{
+    position: relative;
+    left: var(--left_space);
+    text-align: left;
+    top: -5vw;
+    
+}
+
+.list_orphanage{
+    position:relative;
+    display: flex; 
+    left: var(--left_space);
+    flex-wrap: wrap;
+    top: -6vw;
+    width: 57.5vw; ;
+    margin-right: 1.5vw;
+    
+
+}
+.orphanage_house{
+    margin-right: 1.5vw;
+    font-size: 0.55vw;
+    font-family: 'Lato';
+    border-radius: 1vw;
+    padding: 0.85vw;
+    color: grey;
+    background-color: var(--page-background);
+    transition: background-color 1s ease-out 100ms
+}
+
+.orphanage_house:hover{
+   background-color: var(--primary-color);
+   color: var(--white-color);
+   box-shadow: 0px 0.85vw 0.85vw rgba(39, 36, 68, 0.1); 
+   
+}
+
+.service{
+    position:relative;
+    text-align: left;
+    left: var(--left_space);
+    top: -6vw;
+    font-weight: bold;
+}
+
+.list_of_service{
+    position:relative;
+    display: flex; 
+    left: var(--left_space);
+    flex-wrap: wrap;
+    top: -6vw;
+    width: 57.5vw; ;
+    margin-right: 1.5vw;
+    row-gap: 1vw;
+}
+
+.celeb_service_button{
+  font-size: 0.85vw;
+  width:12.88vw ;
+  height: 3.25vw;
+  border: 0px;
+  border-radius: 1.5vw;
+  margin-right: 0.9vw;
+  background-color:rgba(100, 100, 233, 0.05);
+  color:rgba(0, 0, 0, 0.6); 
+}
+
+.celeb_service_button:hover{
+    background-color:rgba(100, 100, 233, 1);
+    color:white; 
+    transition: background-color 1s ease-out 100ms;
+    transform: scale(1.2);
+}
+
+.service_delivered_text{
+    position: relative;
+    left: var(--left_space);
+    text-align: left;
+    top: -5vw; 
+    color: grey; 
+}
+
+.video_list{
+    position:relative;
+    display: flex; 
+    left: var(--left_space);
+    overflow-x:scroll ;
+    overflow-y: hidden;
+    top: -4.5vw;
+    height: 22vw;
+    width: 50.5vw; ;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    column-gap: 1.5vw;
+    align-items: center;
+    right: 1.5vw;
+}
+
+.video_class{
+    width: 12vw;
+    height: 17vw;
+    border-radius: 1.5vw;
+    object-fit: cover;
+}
+.video_class:hover{
+    transform: scale(1.1);
+    border-radius: 1.5vw;
+}
+
+.feedback_text{
+    position: relative;
+    left: var(--left_space);
+    text-align: left;
+    top: -5vw; 
+    color: grey;  
+}
+
+/* testimonier */
+
+.feedback_item_list{
+    position: absolute;
+    left: var(--left_space);
+    top: 58vw; 
+    display: flex;
+    overflow:scroll;
+    height: 22vw;
+    width: 100vw; 
+}
+
+ .feedback_item_container{
+    --container_left:2.5vw;
+    --container_top:2vw;
+    width: 22.375vw;
+    height: 16.1vw;
+    border-radius: 1.5vw;
+    background: var(--page-background);  
+    margin-right:0.85vw;
+    
+ }
+
+
+ .feedback_giver_name{
+    position:relative;
+    top: 0.5vw;
+    left: var(--container_left);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.145vw;
+    color: #272444;
+ }
+ .service_type{
+    position:relative;
+    top: -0.2vw;
+    left: -2.5vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.85vw;
+    color: rgba(128, 128, 128, 0.4);
+ }
+
+.feedback{
+    position:relative;
+    top:2vw; 
+    left: var(--container_left);
+    width: 17.5vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85vw;
+    color: rgba(39, 36, 68, 0.73);
+    
+}
+
+ .feedback_item_container i{
+    position:relative;
+    top: -8.0vw;
+    left: var(--container_left);
+    font-size: 0.85vw;
+}
+
+
+/* left section of the page */
+
+/* left section */
+.left_section{
+    position: absolute;
+    top: 8.5vw;
+    left: 70vw;
+    height: 95vw;
+    width: 30vw;
+    border-radius: 0.86vw;
+    overflow: hidden;
+
+
+}
+.other_celeb{
+    text-align: left;
+    position: absolute;
+    top: 1vw;
+
+
+}
+.profile_list{
+    position: absolute;
+    top: 4vw;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+   
+}
+.profile_container{
+    height: 7vw;
+    width: 24vw;
+    background-color:var(--white-color);
+    border-radius: 1.5vw;
+    margin-bottom: 1vw;
+    
+}
+.profile_image{
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    height: 5vw;
+    width: 5vw;
+    background-color:rgba(188, 188, 188, 1);
+    border-radius:2.5vw; 
+    object-fit: fit;
+}
+.profile_name{
+    position: relative;
+    top: -5vw;
+    left: 7vw;
+    font-size: 1.2vw;
+    text-align: left;
+    
+}
+.profile_occupation{
+    position: relative;
+    top: -6.3vw;
+    left: 7vw;
+    font-size: 0.85vw;
+}
+.profile_open{
+    position: relative;
+    top: -11.3vw;
+    left: 21vw;
+    height: 7vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--white-color);
+    border-radius: 0 1.5vw 1.5vw 0;
+    box-shadow: 0px 0.85vw 0.85vw rgba(128, 128, 128, 0.1); 
+}
+
+.profile_container:hover {
+    translate: ();
+    transform:translate(1.7vw, 0.085vw) scale(1.1) ;
+    z-index: 3;
+}
+
+

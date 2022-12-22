@@ -1,0 +1,127 @@
+ <div class="celeb">
+      <img src = "images/edochi.svg" alt="edochi"/>
+      <div class="lower_container">
+          <!-- celeb name -->
+          <p class="celeb_name">Yul Edochi</p>
+          <!-- celeb occupation -->
+          <p class="celeb_occupation">Artist</p>
+              <!-- celeb charge -->
+              <p class="celeb_charge">$250</p>
+          <!-- star rating -->
+        <i class="fa fa-star checked" style="margin-left:13px ;"></i>
+        <i class="fa fa-star checked" style="margin-left:26px ;"></i>
+        <i class="fa fa-star checked" style="margin-left:39px ;"></i>
+        <i class="fa fa-star unchecked" style="margin-left:52px ;"></i>  
+        <i class="fa fa-star unchecked" style="margin-left:65px ;"></i>    
+      </div>
+    </div>
+        <!-- burna boy  -->
+    <div class="celeb" id="RMD" >
+      <img src = "images/RMD.svg" alt="RMD"/>
+      <div class="lower_container">
+          <!-- celeb name -->
+          <p class="celeb_name">RMD</p>
+          <!-- celeb occupation -->
+          <p class="celeb_occupation">Artist</p>
+              <!-- celeb charge -->
+              <p class="celeb_charge">$350</p>
+          <!-- star rating -->
+        <i class="fa fa-star checked" style="margin-left:13px ;"></i>
+        <i class="fa fa-star checked" style="margin-left:26px ;"></i>
+        <i class="fa fa-star checked" style="margin-left:39px ;"></i>
+        <i class="fa fa-star unchecked" style="margin-left:52px ;"></i>  
+        <i class="fa fa-star unchecked" style="margin-left:65px ;"></i>    
+      </div>
+    </div>
+      <!-- olamide  -->
+      <div class="celeb" id="kate" >
+        <img src = "images/kate.svg" alt="kate"/>
+        <div class="lower_container">
+            <!-- celeb name -->
+            <p class="celeb_name">Kate Henshaw</p>
+            <!-- celeb occupation -->
+            <p class="celeb_occupation">Artist</p>
+                <!-- celeb charge -->
+                <p class="celeb_charge">$450</p>
+            <!-- star rating -->
+          <i class="fa fa-star checked" style="margin-left:13px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:26px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:39px ;"></i>
+          <i class="fa fa-star unchecked" style="margin-left:52px ;"></i>  
+          <i class="fa fa-star unchecked" style="margin-left:65px ;"></i>    
+        </div>
+
+    </div>   
+
+      <!-- asa  -->
+      <div class="celeb" id="jim_lyke" >
+        <img src = "images/jim_lyke.svg" alt="jim_lyke"/>
+        <div class="lower_container">
+            <!-- celeb name -->
+            <p class="celeb_name">Jim Lyke</p>
+            <!-- celeb occupation -->
+            <p class="celeb_occupation">Artist</p>
+                <!-- celeb charge -->
+                <p class="celeb_charge">$550</p>
+            <!-- star rating -->
+          <i class="fa fa-star checked" style="margin-left:13px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:26px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:39px ;"></i>
+          <i class="fa fa-star unchecked" style="margin-left:52px ;"></i>  
+          <i class="fa fa-star unchecked" style="margin-left:65px ;"></i>    
+        </div>
+    
+    </div>
+
+      <!-- wizkid  -->
+      <div class="celeb" id="wizkid" >
+        <img src = "images/wizkid.webp" alt="wizkid"/>
+        <div class="lower_container">
+            <!-- celeb name -->
+            <p class="celeb_name">Wizkid</p>
+            <!-- celeb occupation -->
+            <p class="celeb_occupation">Artist</p>
+                <!-- celeb charge -->
+                <p class="celeb_charge">$650</p>
+            <!-- star rating -->
+          <i class="fa fa-star checked" style="margin-left:13px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:26px ;"></i>
+          <i class="fa fa-star checked" style="margin-left:39px ;"></i>
+          <i class="fa fa-star unchecked" style="margin-left:52px ;"></i>  
+          <i class="fa fa-star unchecked" style="margin-left:65px ;"></i>    
+        </div>
+    
+    </div>
+
+     <div class="ongoing_project_list_item_container">
+            <!-- heading -->
+            <img src="images/ongoing_icon.svg" alt="Ongoing icon" class="ongoing_icon">
+            <p class="ongoing_text">
+              Ongoing
+              <!-- title -->
+            </p>
+            <span class="ongoing_list_item_title">The Don Jazzy Rave OutReach</span>
+            <!-- subtitle -->
+            <span class="ongoing_list_item_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida ullamcorper convallis tristique dolor curabitur augue. Ut scelerisque gravida posuere vel integer nisl nisi. Vulputate placerat tortor vulputate magna a.</span>
+          </div>
+
+          <div class="ongoing_project_list_item_container">
+            <!-- heading -->
+            <img src="images/ongoing_icon.svg" alt="Ongoing icon" class="ongoing_icon">
+            <p class="ongoing_text">
+              Ongoing
+              <!-- title -->
+            </p>
+            <span class="ongoing_list_item_title">The Don Jazzy Rave OutReach</span>
+            <!-- subtitle -->
+            <span class="ongoing_list_item_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida ullamcorper convallis tristique dolor curabitur augue. Ut scelerisque gravida posuere vel integer nisl nisi. Vulputate placerat tortor vulputate magna a.</span>
+          </div>
+
+          <!-- from copied cameo form to apply as a talent, under each text field -->
+            <div data-testid="Clear-Button" class="Styled__SideButton-sc-18ogfv-4 jASXiH"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>

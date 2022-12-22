@@ -1,0 +1,59 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+    background-color:var(--page-background);   
+}
+
+.form_data {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: scroll;
+}
+
+.form_text {
+    margin-right: 1rem;
+}
+
+.talent {
+    padding: 1rem;
+}
+
+.talent_details {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.talent_img {
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.talent_name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0rem 0.75rem 0.25rem;
+}
+
+<<<<<<< HEAD
+
+=======
+.booking {
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+>>>>>>> c0e2a16b049de0fc9b6d4c188a41f1f51525b244

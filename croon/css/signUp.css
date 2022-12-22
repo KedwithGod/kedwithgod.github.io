@@ -1,0 +1,119 @@
+html, body {margin: 0; 
+    padding: 0;
+    height: 100%; 
+    background-color:var(--page-background);   
+}
+
+.talent_registration_container{
+    position: absolute;
+    top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+   
+}
+
+.heading{
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+
+.heading_subtitle{
+    position: relative;
+    top: -0.99vw;
+    color:grey
+}
+
+.label_left{
+   position: relative;
+   text-align: left;
+   
+}
+.textField_right{
+    position:relative;
+    margin-top: 0.5vw;
+    width: 30vw;
+}
+
+.error_message{
+    appearance: none;
+    visibility:hidden;
+}
+
+/* email entry */
+.email_field{
+    position: relative;
+    top: -2.5vw;
+}
+
+
+.phone_field{
+    position: relative;
+    top: -1.0vw; 
+}
+
+.country_left{
+    position: relative;
+   
+}
+
+.select_country_drop_down{
+    width: 32.3vw;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100,0 50,50" style="fill:%23000000"/></svg>');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-color: white;
+}
+ 
+.social_media_container{
+    position: relative;
+    top: 1.0vw;
+}
+#handle-label{
+    position: relative;
+    top: 2vw;
+    text-align: left;
+}
+
+.handle_text_field{
+    position: relative;
+    top: 2vw;
+}
+
+.top_container{
+    position: relative;
+    top: 3.0vw; 
+}
+
+.category_top_container{
+    position: relative;
+    top: 4.0vw; 
+
+}
+
+.more_info_container{
+    position: relative;
+    top: 5.0vw; 
+
+}
+
+.text_area_right{
+    position: relative;
+    left: 14.7vw; 
+}
+
+.submit_button{
+    position: relative;
+    top: 7vw;
+    width: 32.3vw;
+}
+
+.spacing{
+    position: relative;
+    height: 5vw;
+    top: 5vw;  
+}
